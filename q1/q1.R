@@ -23,8 +23,8 @@ nrow(filter(select(md2, VAL), VAL == 24))
 table(select(md2, FES))
 
 # question 3
-fileUrl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx'
-download.file(fileUrl, destfile='NGAP.xlsx')
+fileUrl <- 'http://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx'
+download.file(fileUrl, destfile='NGAP2.xlsx')
 
 library(xlsx)
 ri <- 18:23
